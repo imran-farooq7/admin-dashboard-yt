@@ -1,0 +1,35 @@
+{
+  "name": "nextjs40-admin-dashboard-start",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "1.7.17",
+    "@next-auth/prisma-adapter": "1.0.7",
+    "@prisma/client": "5.5.2",
+    "@tremor/react": "3.10.1",
+    "avvvatars-react": "0.4.2",
+    "lucide-react": "0.291.0",
+    "next": "14.0.1",
+    "next-auth": "4.24.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "autoprefixer": "10.0.1",
+    "eslint": "8",
+    "eslint-config-next": "14.0.1",
+    "postcss": "8",
+    "prisma": "5.5.2",
+    "tailwindcss": "3.3.0",
+    "typescript": "5"
+  }
+}
