@@ -27,7 +27,7 @@ export default function UsersTable({ users }: Props) {
 						<TableCell>{user.name}</TableCell>
 						<TableCell>{user.email}</TableCell>
 						<TableCell>
-							{user.createdAt.toLocaleString("en-US", {
+							{user.createdAt.toLocaleDateString("en-us", {
 								dateStyle: "full",
 							})}
 						</TableCell>
